@@ -1,0 +1,27 @@
+.headerWhySection {
+  text-align: center;
+}
+.h2-line {
+  /* Style for "WHY THIS I" */
+  color: #212121;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+
+  position: relative;
+  margin: 108px auto 0;
+}
+.h2-line::after {
+  content: " ";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -33px;
+  width: 65px;
+  height: 2px;
+  background-color: #ff8b38;
+}
+.header-description {
+  margin: 62px auto 0;
+}

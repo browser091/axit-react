@@ -1,0 +1,35 @@
+.ColumnWhySection {
+  max-width: 1114px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 32px;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 80px auto 0;
+}
+
+.why-h3 {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 30px auto 25px;
+}
+
+.fa {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #ff8b38;
+  text-align: center;
+  line-height: 67px;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.fa:hover {
+  transform: scale(1.2);
+}

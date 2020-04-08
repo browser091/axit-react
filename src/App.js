@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "normalize.css";
+import "./App.css";
+import "../src/components/WhySection/HeaderWhySection.css";
+import "../src/components/ColumnWhySection/ColumnWhySection.css";
+import WhySection from "./components/WhySection/WhySection";
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import { fab } from "@fortawesome/free-brands-svg-icons";
+// import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 
+// library.add(fab, faCheckSquare, faCoffee);
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <WhySection />;
 }
 
 export default App;
