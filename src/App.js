@@ -1,7 +1,7 @@
 import React from "react";
 import "normalize.css";
 import "./App.css";
-import "../src/components/WhySection/HeaderWhySection.css";
+import "../src/components/WhySection/HeaderWhySection/HeaderWhySection.css";
 import "../src/components/ColumnWhySection/ColumnWhySection.css";
 import WhySection from "./components/WhySection/WhySection";
 // import { library } from "@fortawesome/fontawesome-svg-core";

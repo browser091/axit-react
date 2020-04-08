@@ -1,7 +1,7 @@
 import React from "react";
-import ThoughtfulDesign from "../ColumnWhySection/ThoughtfulDesignColumn";
-import WellCrafted from "../ColumnWhySection/WellCraftedColumn";
-import EasytoCustomize from "../ColumnWhySection/EasytoCustomizeColumn";
+import ThoughtfulDesign from "./ThoughtfulDesignColumn";
+import WellCrafted from "./WellCraftedColumn";
+import EasytoCustomize from "./EasytoCustomizeColumn";
 
 function ColumnWhySection() {
   return (

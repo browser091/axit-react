@@ -1,13 +1,13 @@
 import React from "react";
-import HeaderWhySection from "./HeaderWhySection";
-import ColumnWhuSection from "../ColumnWhySection/ColumnWhySection";
+import HeaderWhySection from "../WhySection/HeaderWhySection/HeaderWhySection";
+import ColumnWhySection from "../WhySection/ColumnWhySection/ColumnWhySection";
 
 function WhySection() {
   return (
     <section className="WhySection">
       <div className="container">
         <HeaderWhySection />
-        <ColumnWhuSection />
+        <ColumnWhySection />
       </div>
     </section>
   );
